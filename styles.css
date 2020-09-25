@@ -1,27 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* font-family: 'Pacifico', cursive; */
+
 html, body {
   margin: 0;
   height: 100%;
 }
 
-.parallax {
+.background {
   display: grid;
   justify-items: center;
   background-color: #FBD132;
-  height: 100%;
-  /* background-attachment: fixed; - seems we don't need this, probs because the background is just a color */
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
+  
 }
 
 h1 {
   margin: 0;
+  font-family: 'Pacifico', cursive; 
   font-size: 10rem;
+  letter-spacing: 20px;
   color:#323E48;
-  text-align: center;
   align-self: center;
   position: sticky;
-  top: 0;
+  top: 50px;
 }
 
 .arrows {
@@ -29,9 +29,12 @@ h1 {
   justify-items: center;
 }
 
+#one {
+  height: 100vh;
+}
+
 #earth-container {
-  height: 50%;
- 
+  height: 50vh;
 }
 
 #earth {
@@ -39,9 +42,8 @@ h1 {
 }
 
 #three {
-  height: 25%;
+  height: 25vh;
   align-items: end;
 }
 
-/* with help from https://www.w3schools.com/howto/howto_css_parallax.asp */
-/* don't actually need that with a solid color background! */
+
